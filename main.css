@@ -1,9 +1,10 @@
 body{
     background-color: black;
+    font-family: 'Roboto', sans-serif !important;
 }
 .cards-size{
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
     padding-top: 30px;
 }
 
@@ -21,18 +22,18 @@ body{
     font-weight: bold;
 }
 .card-body{
-    height: 230px;
+    height: 220px;
 }
 
 .h1{
     text-align: center;
-    padding-top: 30px;
+    padding-top: 60px;
     color: whitesmoke;
 }
 
 .h4{
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     color: whitesmoke;
 }
 .navbar-brand{
@@ -71,5 +72,63 @@ body{
     outline: none;
     border-color:red;
     box-shadow: 0 4px -2px -3px red;
+}
+.card-clock{
+    width: 180px;
+    background: #1e1f1e;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 28px;
+    font-weight: bold;
+
+    
+    /* round the corners */
+    -webkit-border-radius: .15rem;
+       -moz-border-radius: .15rem;
+            border-radius: .15rem;
+
+
+    /* make it glow! */
+    -webkit-box-shadow: 0px 0px 6px red;
+       -moz-box-shadow: 0px 0px 6px red;
+            box-shadow: 0px 0px 6px red; 
+}
+
+.email{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    background-color: #1e1f1e;
+    padding: 40px;
+    border-radius: .15rem;
+    -webkit-box-shadow: 0px 0px 6px red;
+       -moz-box-shadow: 0px 0px 6px red;
+            box-shadow: 0px 0px 6px red; 
+}
+
+.subscribed{
+    text-align: center;
+    color: lightgreen;
+    padding-top: 15px;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    background-color: red;
+    border-color: red;
+}
+
+.btn-primary:hover {
+    color: rgb(255, 255, 255);
+    background-color:darkred;
+    border-color: darkred;
+}
+
+.btn-primary:focus {
+    color: rgb(255, 255, 255);
+    background-color: red;
+    border-color: red;
 }
 
